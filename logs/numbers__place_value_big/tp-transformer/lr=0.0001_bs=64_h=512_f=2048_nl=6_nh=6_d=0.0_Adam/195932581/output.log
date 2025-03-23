@@ -1,0 +1,42 @@
+Arguments:
+	seed=195932581
+	model_name='tp-transformer'
+	module_name='numbers__place_value_big'
+	load_model='C:\\Users\\anteg\\Desktop\\PROJEKTI\\TP-Transformer-master\\trained\\lr=0.0001_bs=128_h=512_f=2048_nl=6_nh=6_d=0.0_Adam_\\195932581\\best_eval_model.pt'
+	eval_mode=True
+	n_steps=10000
+	max_strikes=1000
+	log_every=50
+	eval_every=200
+	full_loader=False
+	force_remove=False
+	force_reload=False
+	no_train=False
+	log_folder='logs\\numbers__place_value_big\\tp-transformer\\lr=0.0001_bs=64_h=512_f=2048_nl=6_nh=6_d=0.0_Adam\\195932581'
+	log_suffix=''
+	optimizer='Adam'
+	learning_rate=0.0001
+	beta1=0.9
+	beta2=0.995
+	batch_size=64
+	max_abs_grad_norm=0.1
+	grad_accum_steps=1
+	dropout=0.0
+	hidden=512
+	n_layers=6
+	n_heads=6
+	filter=2048
+	d_r=0
+	device=device(type='cuda')
+using JIT loader
+Loading JIT datasets ...
+Creating iterators ...
+Loading JIT datasets ...
+Creating iterators ...
+Building model ...
+done. 49086320 trainable parameters.
+
+eval: loss=1.8180 acc=0.6247 b/sec=0.07 time=0.2 min
+run:  logs\numbers__place_value_big\tp-transformer\lr=0.0001_bs=64_h=512_f=2048_nl=6_nh=6_d=0.0_Adam\195932581
+best: loss=0.1835 acc=0.7484 best since 0 steps and 28122413.2 min
+

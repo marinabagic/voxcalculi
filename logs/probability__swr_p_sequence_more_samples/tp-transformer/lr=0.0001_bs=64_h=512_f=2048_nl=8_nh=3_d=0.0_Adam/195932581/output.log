@@ -1,0 +1,42 @@
+Arguments:
+	seed=195932581
+	model_name='tp-transformer'
+	module_name='probability__swr_p_sequence_more_samples'
+	load_model='C:\\Users\\anteg\\Desktop\\PROJEKTI\\TP-Transformer-master\\trained\\lr=0.0001_bs=128_h=512_f=2048_nl=8_nh=3_d=0.0_Adam_\\195932581\\best_eval_model.pt'
+	eval_mode=True
+	n_steps=10000
+	max_strikes=1000
+	log_every=50
+	eval_every=200
+	full_loader=False
+	force_remove=False
+	force_reload=False
+	no_train=False
+	log_folder='logs\\probability__swr_p_sequence_more_samples\\tp-transformer\\lr=0.0001_bs=64_h=512_f=2048_nl=8_nh=3_d=0.0_Adam\\195932581'
+	log_suffix=''
+	optimizer='Adam'
+	learning_rate=0.0001
+	beta1=0.9
+	beta2=0.995
+	batch_size=64
+	max_abs_grad_norm=0.1
+	grad_accum_steps=1
+	dropout=0.0
+	hidden=512
+	n_layers=8
+	n_heads=3
+	filter=2048
+	d_r=0
+	device=device(type='cuda')
+using JIT loader
+Loading JIT datasets ...
+Creating iterators ...
+Loading JIT datasets ...
+Creating iterators ...
+Building model ...
+done. 65348416 trainable parameters.
+
+eval: loss=4.0514 acc=0.0751 b/sec=0.19 time=0.5 min
+run:  logs\probability__swr_p_sequence_more_samples\tp-transformer\lr=0.0001_bs=64_h=512_f=2048_nl=8_nh=3_d=0.0_Adam\195932581
+best: loss=0.1518 acc=0.7925 best since 0 steps and 28122426.9 min
+

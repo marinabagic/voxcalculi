@@ -1,0 +1,126 @@
+Arguments:
+	seed=195932581
+	model_name='tp-transformer'
+	module_name='comparison__kth_biggest_more'
+	load_model='C:\\Users\\anteg\\Desktop\\PROJEKTI\\TP-Transformer-master\\trained\\lr=0.0001_bs=128_h=512_f=2048_nl=6_nh=8_d=0.0_Adam_\\195932581\\best_eval_model.pt'
+	eval_mode=True
+	n_steps=10000
+	max_strikes=1000
+	log_every=50
+	eval_every=200
+	full_loader=False
+	force_remove=False
+	force_reload=False
+	no_train=False
+	log_folder='logs\\comparison__kth_biggest_more\\tp-transformer\\lr=0.0001_bs=64_h=512_f=2048_nl=6_nh=8_d=0.0_Adam\\195932581'
+	log_suffix=''
+	optimizer='Adam'
+	learning_rate=0.0001
+	beta1=0.9
+	beta2=0.995
+	batch_size=64
+	max_abs_grad_norm=0.1
+	grad_accum_steps=1
+	dropout=0.0
+	hidden=512
+	n_layers=6
+	n_heads=8
+	filter=2048
+	d_r=0
+	device=device(type='cuda')
+using JIT loader
+Loading JIT datasets ...
+Creating iterators ...
+Loading JIT datasets ...
+Creating iterators ...
+Building model ...
+done. 49178624 trainable parameters.
+
+eval: loss=2.4433 acc=0.1778 b/sec=0.16 time=0.4 min
+run:  logs\comparison__kth_biggest_more\tp-transformer\lr=0.0001_bs=64_h=512_f=2048_nl=6_nh=8_d=0.0_Adam\195932581
+best: loss=0.1620 acc=0.7796 best since 0 steps and 28122417.9 min
+
+Arguments:
+	seed=195932581
+	model_name='tp-transformer'
+	module_name='comparison__kth_biggest_more'
+	load_model='C:\\Users\\anteg\\Desktop\\PROJEKTI\\TP-Transformer-master\\trained\\arithmetic\\lr=0.0001_bs=128_h=512_f=2048_nl=6_nh=8_d=0.0_Adam_\\195932581\\best_eval_model.pt'
+	eval_mode=True
+	n_steps=10000
+	max_strikes=1000
+	log_every=50
+	eval_every=200
+	full_loader=False
+	force_remove=False
+	force_reload=False
+	no_train=False
+	log_folder='logs\\comparison__kth_biggest_more\\tp-transformer\\lr=0.0001_bs=64_h=512_f=2048_nl=6_nh=8_d=0.0_Adam\\195932581'
+	log_suffix=''
+	optimizer='Adam'
+	learning_rate=0.0001
+	beta1=0.9
+	beta2=0.995
+	batch_size=64
+	max_abs_grad_norm=0.1
+	grad_accum_steps=1
+	dropout=0.0
+	hidden=512
+	n_layers=6
+	n_heads=8
+	filter=2048
+	d_r=0
+	device=device(type='cuda')
+using JIT loader
+Loading JIT datasets ...
+Creating iterators ...
+Loading JIT datasets ...
+Creating iterators ...
+Building model ...
+done. 49160704 trainable parameters.
+
+eval: loss=7.5882 acc=0.0014 b/sec=0.16 time=0.4 min
+run:  logs\comparison__kth_biggest_more\tp-transformer\lr=0.0001_bs=64_h=512_f=2048_nl=6_nh=8_d=0.0_Adam\195932581
+best: loss=0.1798 acc=0.7459 best since 0 steps and 28122452.8 min
+
+Arguments:
+	seed=195932581
+	model_name='tp-transformer'
+	module_name='comparison__kth_biggest_more'
+	load_model='C:\\Users\\anteg\\Desktop\\PROJEKTI\\TP-Transformer-master\\trained\\algebra2d\\lr=0.0001_bs=128_h=512_f=2048_nl=6_nh=8_d=0.0_Adam_\\195932581\\best_eval_model.pt'
+	eval_mode=True
+	n_steps=10000
+	max_strikes=1000
+	log_every=50
+	eval_every=200
+	full_loader=False
+	force_remove=False
+	force_reload=False
+	no_train=False
+	log_folder='logs\\comparison__kth_biggest_more\\tp-transformer\\lr=0.0001_bs=64_h=512_f=2048_nl=6_nh=8_d=0.0_Adam\\195932581'
+	log_suffix=''
+	optimizer='Adam'
+	learning_rate=0.0001
+	beta1=0.9
+	beta2=0.995
+	batch_size=64
+	max_abs_grad_norm=0.1
+	grad_accum_steps=1
+	dropout=0.0
+	hidden=512
+	n_layers=6
+	n_heads=8
+	filter=2048
+	d_r=0
+	device=device(type='cuda')
+using JIT loader
+Loading JIT datasets ...
+Creating iterators ...
+Loading JIT datasets ...
+Creating iterators ...
+Building model ...
+done. 49165824 trainable parameters.
+
+eval: loss=7.3160 acc=0.0126 b/sec=0.16 time=0.4 min
+run:  logs\comparison__kth_biggest_more\tp-transformer\lr=0.0001_bs=64_h=512_f=2048_nl=6_nh=8_d=0.0_Adam\195932581
+best: loss=0.6056 acc=0.3541 best since 0 steps and 28122458.8 min
+

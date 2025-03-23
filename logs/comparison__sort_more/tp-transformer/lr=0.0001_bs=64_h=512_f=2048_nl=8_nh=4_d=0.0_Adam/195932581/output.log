@@ -1,0 +1,42 @@
+Arguments:
+	seed=195932581
+	model_name='tp-transformer'
+	module_name='comparison__sort_more'
+	load_model='C:\\Users\\anteg\\Desktop\\PROJEKTI\\TP-Transformer-master\\trained\\lr=0.0001_bs=128_h=512_f=2048_nl=8_nh=4_d=0.0_Adam_\\195932581\\best_eval_model.pt'
+	eval_mode=True
+	n_steps=10000
+	max_strikes=1000
+	log_every=50
+	eval_every=200
+	full_loader=False
+	force_remove=False
+	force_reload=False
+	no_train=False
+	log_folder='logs\\comparison__sort_more\\tp-transformer\\lr=0.0001_bs=64_h=512_f=2048_nl=8_nh=4_d=0.0_Adam\\195932581'
+	log_suffix=''
+	optimizer='Adam'
+	learning_rate=0.0001
+	beta1=0.9
+	beta2=0.995
+	batch_size=64
+	max_abs_grad_norm=0.1
+	grad_accum_steps=1
+	dropout=0.0
+	hidden=512
+	n_layers=8
+	n_heads=4
+	filter=2048
+	d_r=0
+	device=device(type='cuda')
+using JIT loader
+Loading JIT datasets ...
+Creating iterators ...
+Loading JIT datasets ...
+Creating iterators ...
+Building model ...
+done. 65471488 trainable parameters.
+
+eval: loss=0.0249 acc=0.8169 b/sec=0.14 time=0.4 min
+run:  logs\comparison__sort_more\tp-transformer\lr=0.0001_bs=64_h=512_f=2048_nl=8_nh=4_d=0.0_Adam\195932581
+best: loss=0.0249 acc=0.8169 best since 0 steps and 0.0 min
+
